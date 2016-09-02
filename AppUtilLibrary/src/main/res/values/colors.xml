@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_transparent_31">#50d0d0d0</color>
+    <color name="transparent_0">#01000000</color>
+    <color name="page_back">#FFE9EEF1</color>
+    <color name="grey_7f">#7f7f7f</color>
+    <color name="transparent_30">#33000000</color>
+    <color name="grey_ed">#ededed</color>
+    <color name="grey_f4">#f4f4f4</color>
+    <color name="grey_dd">#dddddd</color>
+
+    <color name="ucrop_color_toolbar_widget">#ffffff</color>
+
+</resources>
