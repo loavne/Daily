@@ -37,7 +37,7 @@ public class AppUtil {
     }
 
     /**是否是debug模式*/
-    public static boolean isIsDebug(){
+    public static boolean isDebug(){
         return isDebug;
     }
 
