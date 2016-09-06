@@ -11,6 +11,7 @@
     tools:context="com.poverbover.daily.MainActivity">
 
     <TextView
+        android:id="@+id/tv_temp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="为了更美好的明天而战！" />
