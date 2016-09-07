@@ -1,5 +1,6 @@
 package com.poverbover.daily.model;
 
+import com.google.gson.annotations.SerializedName;
 import com.poverbover.daily.AppConfig;
 import com.poverbover.daily.request.NewsRequest;
 
@@ -19,7 +20,8 @@ import rx.schedulers.Schedulers;
 public class NewsBean implements Serializable {
     private String title;
     private String url;
-    private String img;
+    @SerializedName("img")
+    private String imgUrl;
     private String author;
     private long time;
 
@@ -39,12 +41,12 @@ public class NewsBean implements Serializable {
         this.url = url;
     }
 
-    public String getImg() {
-        return img;
+    public String getImgUrl() {
+        return imgUrl;
     }
 
-    public void setImg(String img) {
-        this.img = img;
+    public void setImgUrl(String imgUrl) {
+        this.imgUrl = imgUrl;
     }
 
     public String getAuthor() {
